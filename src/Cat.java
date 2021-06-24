@@ -5,7 +5,7 @@ public class Cat {
     int age = 1;
     String color = "Grey";
 
-    int flag = 55;
+    int flag = 112;
 
 
     public Cat(double weight, String name, int age, String color) {
@@ -25,6 +25,17 @@ public class Cat {
 
     void eat() {
         this.weight += 50;
+    }
+
+    public static class Main {
+        public static void main(String[] args) {
+
+            Cat barsik;
+    //        Cat bigCat = new Cat();
+    //        Cat smallCat = new Cat();
+
+            //barsik.meow();
+        }
     }
 }
 
